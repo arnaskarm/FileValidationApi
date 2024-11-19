@@ -98,14 +98,14 @@ public class ValidationApiTests(WebApplicationFactory<Program> factory) : IClass
     {
         actualResponse.StatusCode.Should().Be(HttpStatusCode.OK);
 
-        var actualResult = await GetDeserializedContent(actualResponse.Content);
+        var actualResult = await GetDeserializedFileValidationResult(actualResponse.Content);
 
         actualResult.FileValid.Should().Be(expectedResult.FileValid);
         actualResult.InvalidLines.Count.Should().Be(expectedResult.InvalidLines.Count);
         actualResult.InvalidLines.Should().Equal(expectedResult.InvalidLines);
     }
 
-    private static async Task<FileValidationResult> GetDeserializedContent(HttpContent httpContent)
+    private static async Task<FileValidationResult> GetDeserializedFileValidationResult(HttpContent httpContent)
     {
         string content = await httpContent.ReadAsStringAsync();
 
