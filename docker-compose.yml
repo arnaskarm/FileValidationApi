@@ -1,0 +1,12 @@
+services:
+  filevalidationapi:
+    container_name: filevalidation-api
+    image: ${DOCKER_REGISTRY-}filevalidationapi
+    build:
+      context: .
+      dockerfile: src/FileValidationApi/Dockerfile
+    ports:
+      - 8000:8080
+      - 8001:8081
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development    

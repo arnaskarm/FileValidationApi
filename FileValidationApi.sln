@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileValidationApi.UnitTests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileValidationApi.IntegrationTests", "test\FileValidationApi.IntegrationTests\FileValidationApi.IntegrationTests.csproj", "{B99407B9-3508-40A0-812E-E8ACE478E63A}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6395B8DB-F5C5-4498-B9FB-5EAD6AB72E81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +27,14 @@ Global
 		{7B24804F-1317-4E0F-9201-CFB9C9197B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B24804F-1317-4E0F-9201-CFB9C9197B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B24804F-1317-4E0F-9201-CFB9C9197B4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{183823AE-2564-446F-9B39-0C3A7FA901BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{183823AE-2564-446F-9B39-0C3A7FA901BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{183823AE-2564-446F-9B39-0C3A7FA901BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{183823AE-2564-446F-9B39-0C3A7FA901BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B99407B9-3508-40A0-812E-E8ACE478E63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B99407B9-3508-40A0-812E-E8ACE478E63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B99407B9-3508-40A0-812E-E8ACE478E63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B99407B9-3508-40A0-812E-E8ACE478E63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6395B8DB-F5C5-4498-B9FB-5EAD6AB72E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6395B8DB-F5C5-4498-B9FB-5EAD6AB72E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6395B8DB-F5C5-4498-B9FB-5EAD6AB72E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6395B8DB-F5C5-4498-B9FB-5EAD6AB72E81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
